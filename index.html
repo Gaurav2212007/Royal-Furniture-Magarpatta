@@ -76,28 +76,22 @@
         }
        
        .logo img {
-           max-width: 100%;
-           height: auto;
-           white-space: nowrap;
-           object-fit:contain;
+           height: 50px;
+           width: auto;
+           object-fit: contain;
        }
 
        .logo-text {
            font-size: 22px;
            white-space: nowrap;
            overflow: hidden;
-           text-overflow: ellipsis;
+           font_weight:bold;
        }
        @media (max-width: 600px) {
            .logo img {
                height:80px;
            }
        }
-
-       @media (max-width: 480px) {
-           .logo-text {
-               font-size: 18px;
-           }
            
        .logo {
            height:100px;
@@ -108,7 +102,7 @@
        }
 
        .logo.clicked {
-           transform: scale(1.5);
+           transform: scale(2.4);
            z-index: 999;
            box-shadow: 0 0 15px rgba(0,0,0,0.3);
        }
